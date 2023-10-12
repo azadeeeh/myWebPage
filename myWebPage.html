@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="./logo5.png" type="image/x-icon"/>
+        <title>Choose Smart</title>
+    </head>
+    <body>
+        <style>
+            *{
+                background-color: lavender;
+            }
+            .description{
+                text-align:center;
+            }
+            nav{
+                text-align: center;
+            }
+            a{
+                color: purple;
+                text-decoration: bold ;
+                margin: 10px;
+                font-size: 20px;
+            }
+            section{
+                text-align:center;
+                display:block;
+            }
+            h3{
+                color: rgb(65, 62, 62);
+            }
+            ul{
+                list-style: none;
+                list-style-position: inside;
+            }
+            li{
+                list-style: none;
+                position: relative;
+                left: -15px;
+            }
+            .sub{
+                text-align: center;
+                color: purple;
+            }
+            form{
+
+                text-align: center;
+            }
+
+            label {
+                display: block;
+                margin-top: 10px;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="number"] {
+                
+                padding: 10px;
+                margin: 6px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            input[type="submit"] {
+                background-color: purple;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover {
+                background-color: rgb(185, 45, 185);
+            }
+        
+        </style>
+        <header>
+            
+            <img width="100%"  src="./logo4.png" />
+            <h1 class="description">here we help you choose the best products and deals</h1>
+              
+        </header>
+        <nav>
+            <ul>
+                <a href="#cosmetic">Cosmetic</a>
+                <a href="#skin-care">Skin Care</a>
+                <a href="#clothing">Clothing</a>
+                <a href="#health">Health</a>
+            </ul>
+        </nav>
+        <section id="cosmetic">
+            <h1>Cosmetic</h1>
+            <h3>Deals</h3>
+                <ul>
+                    <li><a href="https://www.sephora.com/ca/en/sale?om_mmc=ppc-GG_167710724_11666434244_aud-1211675839800:kwd-12617961__514602383492_9001576_c">Sephora</a></li>
+                    <li><a href="https://www.thebay.com/c/beauty?page=1&categories%5BhierarchicalCategories.0%5D%5B0%5D=Beauty">The Bay</a></li>
+                    <li><a href="https://www.londondrugs.com/beauty/makeup/">London Drugs</a></li>
+                 </ul>
+            <h3>tips</h3>
+           
+        </section>
+        <section id="skin-care">
+            <h1>Skin Care</h1>
+            <h3>Deals</h3>
+            <h3>tips</h3>
+            
+        </section>
+        <section id="clothing">
+            <h1>Clothing</h1>
+            <h3>Deals</h3>
+            <h3>tips</h3>
+            
+        </section>
+        <section id="health">
+            <h1 >Health</h1>
+            <h3>Deals</h3>
+            <h3>tips</h3>
+            
+        </section>
+        <h1 class="sub">Please subscribe</h1>
+        <form action="#" method="post">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+      
+    </body>
+    
+</html>
