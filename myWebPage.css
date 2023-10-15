@@ -1,0 +1,68 @@
+*{
+    background-color: lavender;
+}
+.description{
+    text-align:center;
+}
+nav{
+    text-align: center;
+}
+a{
+    color: purple;
+    text-decoration: bold ;
+    margin: 10px;
+    font-size: 20px;
+}
+section{
+    text-align:center;
+    display:block;
+}
+h3{
+    color: rgb(65, 62, 62);
+}
+ul{
+    list-style: none;
+    list-style-position: inside;
+}
+li{
+    list-style: none;
+    position: relative;
+    left: -15px;
+}
+p{
+    color: rgb(50, 4, 50);
+}
+.sub{
+    text-align: center;
+    color: purple;
+}
+form{
+
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(185, 45, 185);
+}
