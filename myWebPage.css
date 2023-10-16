@@ -1,41 +1,168 @@
 *{
-    background-color: lavender;
+    background-color: lightgray;
 }
-.description{
-    text-align:center;
+
+header { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white; 
+  height: 90px; 
+  width: 80%;
+  margin: auto;
+  padding: 0 20px; 
+  overflow: hidden; 
+  border-radius: 5px;
+  
 }
-nav{
-    text-align: center;
+
+.logo {
+    display: inline-block;
+    width:300px;
+    height:80px;
+    position: relative;
+    left:2px;
+    top:2px;
 }
-a{
-    color: purple;
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: white;
+    white-space: nowrap;
+
+}
+
+nav li {
+   
+    background-color: white;
+}
+
+
+nav a {
+    background-color: white;
+    text-decoration: none;
+    color: gray; 
     text-decoration: bold ;
     margin: 10px;
     font-size: 20px;
 }
+
+nav a:hover{
+    color:purple;
+}
+
+
+
+
+
 section{
     text-align:center;
     display:block;
+    border-radius:10px;
+    box-shadow: 0 0 5px 5px gray;
+    width:70%;
+    margin:40px auto;
+    padding: 20px;
 }
+
+h1{
+    font-family: cursive;
+}
+
 h3{
     color: rgb(65, 62, 62);
+    font-family: cursive;
 }
+
 ul{
     list-style: none;
-    list-style-position: inside;
+    
 }
+
 li{
     list-style: none;
-    position: relative;
-    left: -15px;
+    
 }
+ 
 p{
     color: rgb(50, 4, 50);
 }
+
+.flex-list{
+
+    display:flex;
+    justify-content: space-around;
+    justify-content: center;
+    position:relative;
+    margin:auto;
+    width:80%;
+    @media (max-width: 500px) {
+        flex-direction: column; 
+    }
+    
+}
+
+.grid-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: -10px;
+    margin:20px auto;
+
+
+}
+
+.icon{
+    margin:10px;
+    height: 120px;
+    width : 120px;
+}
+
+
+.video{
+    width:560px; 
+    height:315px;
+    margin: auto;
+    
+}
+
+.table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    
+}
+
+.table, th, td {
+    border: 2px solid gray;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #8f8f8f;
+    font-family: cursive;
+   
+}
+
+
+
+
+
 .sub{
     text-align: center;
     color: purple;
 }
+
 form{
 
     text-align: center;
@@ -45,15 +172,17 @@ label {
     display: block;
     margin-top: 10px;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="number"] {
     
     padding: 10px;
     margin: 6px 0;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
     border-radius: 5px;
 }
+
 input[type="submit"] {
     background-color: purple;
     color: #fff;
@@ -61,8 +190,59 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 40px;
 }
 
 input[type="submit"]:hover {
     background-color: rgb(185, 45, 185);
+}
+
+footer{
+    background-color: white;
+    width:80%;
+    height: 140px;
+    margin:auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.foot-item{
+    
+    background-color: white;
+    text-align: center;
+    margin:auto;
+    
+}
+
+.foot-item p,
+.foot-item h4{
+    background-color: white;
+    
+}
+
+
+
+.flex-social{
+    display:flex;
+    
+}
+
+
+.footer-copyright{
+    text-align: center;
+    margin:40px;
+    background-color: white;
+    
+   
+}
+
+.footer-copyright p{
+    background-color: white;
+}
+
+h4{
+    font-family: cursive;
+    font-weight: bold;
 }
